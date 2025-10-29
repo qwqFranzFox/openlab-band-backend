@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import os
 
 # 决定使用文件存储版本还是数据库版本
-USE_FILE_STORAGE = True
+USE_FILE_STORAGE = False
 
 app = FastAPI(
     title="BanG Dream! 乐队管理系统",
